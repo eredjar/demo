@@ -6,6 +6,6 @@ version: 0.1.0
 appVersion: "1.0"
 
 dependencies:
-- name: nginx
+- name: nginx-ingress
   version: ~1.3.0
-  repository: oci://ghcr.io/nginxinc/charts/nginx-ingress
+  repository: "oci://ghcr.io/nginxinc/charts"
